@@ -18,3 +18,17 @@ body {
 div {
     clear: right;
   }
+  
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  @media screen and (min-width: 480px) {
+    #video {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
